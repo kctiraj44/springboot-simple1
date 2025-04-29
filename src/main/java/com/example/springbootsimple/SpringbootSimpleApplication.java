@@ -17,5 +17,9 @@ public class SpringbootSimpleApplication {
     public String test(){
         return "*----This is just an example----*";
     }
+    @GetMapping("/suraj")
+    public String test2(){
+        return "*----This is suraj----*";
+    }
 
 }
